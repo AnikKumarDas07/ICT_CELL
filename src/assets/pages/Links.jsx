@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/links.css'; 
 import { FaLinkedin, FaGithub,FaGoogle, FaFacebook, FaTwitter } from 'react-icons/fa'
-
+import Intro from '../component/Intro';
 export default function Links(){
 
     return (
@@ -41,6 +41,7 @@ export default function Links(){
           </a>
         </li>
       </ul>
+      <Intro/>
     </div>
       );
 }
